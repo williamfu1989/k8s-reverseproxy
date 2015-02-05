@@ -8,4 +8,4 @@ done
 confd -interval 10 -node $ETCD -config-file /etc/confd/conf.d/myconfig.toml &
 
 # Start nginx
-nginx
+/etc/init.d/nginx restart
